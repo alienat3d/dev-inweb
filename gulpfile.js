@@ -43,9 +43,9 @@ function browserSync(done) {
   browsersync.init({
     server: {
       baseDir: "./dist/",
-      notify: false
     },
-    port: 3000
+    port: 3000,
+    notify: false
   });
 }
 
