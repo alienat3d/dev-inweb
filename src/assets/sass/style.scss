@@ -27,9 +27,13 @@ body {
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
-@import "../../../node_modules/bootstrap/scss/grid";
+// @import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 // === / BOOTSTRAP ===
 
 // === BLOCKS ===
 @import "blocks/header";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/lang";
 // === / BLOCKS ===

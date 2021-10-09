@@ -10,7 +10,7 @@ const sass = require("gulp-sass")(require("sass"));
 const cssnano = require("gulp-cssnano");
 const rigger = require("gulp-rigger");
 const uglify = require("gulp-uglify");
-const plumber = require("gulp-plumber");
+// const plumber = require("gulp-plumber");
 const image = require("gulp-image");
 const del = require("del");
 const panini = require("panini");
@@ -56,7 +56,7 @@ function browserSyncReload(done) {
 function html() {
   panini.refresh();
   return src(path.src.html, { base: "src/" })
-    .pipe(plumber())
+    // .pipe(plumber())
     .pipe(
       panini({
         root: "src/",
@@ -72,7 +72,7 @@ function html() {
 
 function css() {
   return src(path.src.css, { base: "src/assets/sass/" })
-    .pipe(plumber())
+    // .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer({
         overrideBrowserslist: ["last 10 versions"],
@@ -100,7 +100,7 @@ function css() {
 
 function js() {
   return src(path.src.js, {base: './src/assets/js/'})
-    .pipe(plumber())
+    // .pipe(plumber())
     .pipe(rigger())
     .pipe(gulp.dest(path.build.js))
     .pipe(uglify())

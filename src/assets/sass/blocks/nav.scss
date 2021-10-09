@@ -1,0 +1,26 @@
+.nav{
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav__link{
+  margin-left: 1rem;
+  padding: 0.25rem 3rem;
+  
+  color: $black;
+  text-decoration: none;
+
+  border-radius: 20px;
+
+  transition: background .1s linear;
+
+  &:hover{
+    background-color: darken($gray, 3%);
+  }
+
+  &.active{
+    color: $white;
+    background-color: $pink;
+  }
+}
