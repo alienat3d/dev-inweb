@@ -4,20 +4,28 @@
 <head>
 
   {{> head }}
-  
+
 </head>
 
 <body>
-<!-- === HEADER === -->
-{{> header }}
-<!-- === / HEADER === -->
+  <div class="page">
+    <!-- === HEADER === -->
+    {{> header }}
+    <!-- === / HEADER === -->
 
-<!-- === CONTENT === -->
-{{> body }}
-<!-- === / CONTENT === -->
+    <!-- === CONTENT === -->
+    <main class="content">
+      {{> body }}
+    </main>
+    <!-- === / CONTENT === -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="assets/js/app.min.js"></script>
+    <!-- === FOOTER === -->
+    {{> footer }}
+    <!-- === / FOOTER === -->
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/js/app.min.js"></script>
 
 </body>
 

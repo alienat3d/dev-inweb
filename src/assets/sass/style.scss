@@ -21,19 +21,31 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
+
+html, 
+body {
+  height: 100%;
+}
 // === / DEFAULT STYLES ===
 
 // === BOOTSTRAP ===
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
-// @import "../../../node_modules/bootstrap/scss/grid";
-@import "../../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
+@import "../../../node_modules/bootstrap/scss/grid";
 // === / BOOTSTRAP ===
 
 // === BLOCKS ===
+@import "blocks/page";
 @import "blocks/header";
 @import "blocks/logo";
 @import "blocks/nav";
 @import "blocks/lang";
+@import "blocks/content";
+@import "blocks/intro";
+@import "blocks/button";
+@import "blocks/contacts";
+@import "blocks/author";
+@import "blocks/circle";
+@import "blocks/footer";
 // === / BLOCKS ===
