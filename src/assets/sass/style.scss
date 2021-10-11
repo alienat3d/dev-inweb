@@ -33,6 +33,8 @@ body {
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/transitions";
 // === / BOOTSTRAP ===
 
 // === BLOCKS ===
@@ -47,5 +49,6 @@ body {
 @import "blocks/contacts";
 @import "blocks/author";
 @import "blocks/circle";
+@import "blocks/social";
 @import "blocks/footer";
 // === / BLOCKS ===
