@@ -57,6 +57,11 @@ p {
 @import "blocks/social";
 @import "blocks/footer";
 @import "blocks/services";
+@import "blocks/portfolio";
 @import "blocks/modal";
 @import "blocks/form";
 // === / BLOCKS ===
+
+// === VENDOR LIBS ===
+@import "vendor/slick";
+// === / VENDOR LIBS ===
