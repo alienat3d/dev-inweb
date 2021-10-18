@@ -1,8 +1,6 @@
 // = ../../../node_modules/bootstrap/js/dist/modal.js
-//= components/slick.min.js
+//= ../../../node_modules/slick-carousel/slick/slick.js
 
 $(function () {
-  
-  //= components/slick.js
-  
+  //= components/slick-settings.js
 });

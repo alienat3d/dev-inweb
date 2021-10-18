@@ -1,4 +1,4 @@
-$("#portfolio").slick({
+$(".portfolio").slick({
   arrows: true,
   dots: true,
   speed: 800,
