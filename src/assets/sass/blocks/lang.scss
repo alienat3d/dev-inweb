@@ -1,4 +1,4 @@
-.lang{
+.lang {
   text-align: right;
   font-size: 1rem;
   font-weight: 500;
@@ -7,10 +7,22 @@
 
 .lang__item {
   margin-left: 0.5rem;
+  border-radius: $radius;
+  padding: .4rem .5rem;
   color: $black;
   text-decoration: none;
 
-  &.active{
+  &:hover {
+    color: $black;
+    background-color: darken($gray, 3%);
+  }
+
+  &.active {
     color: $pink;
+
+    &:hover {
+      color: $pink;
+      background-color: #fff;
+    }
   }
 }

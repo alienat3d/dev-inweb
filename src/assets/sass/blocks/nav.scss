@@ -16,6 +16,7 @@
   transition: background .1s linear;
 
   &:hover{
+    color: $black;
     background-color: darken($gray, 3%);
   }
 
