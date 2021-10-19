@@ -8,53 +8,67 @@ title: Portfolio
   </h1>
 
   <div class="portfolio">
-    <div class="portfolio__slider-box">
-      <a class="portfolio__link" href="#" target="_blank">
-        <div class="portfolio__item">
-          <img class="portfolio__image"
-            src="https://www.dummyimage.com/600x400/2e848f/242a75.jpg&text=here+will+be+one+of+my+project's+screenshot"
-            alt="">
-          <h2 class="portfolio__title">
-            my first work
-          </h2>
-        </div>
-      </a>
-    </div>
-    <div class="portfolio__slider-box">
-      <a class="portfolio__link" href="#" target="_blank">
-        <div class="portfolio__item">
-          <img class="portfolio__image"
-            src="https://www.dummyimage.com/600x500/093747/4f5df5.jpg&text=here+will+be+one+of+my+project's+screenshot"
-            alt="">
-          <h2 class="portfolio__title">
-            my second work
-          </h2>
-        </div>
-      </a>
-    </div>
-    <div class="portfolio__slider-box">
-      <a class="portfolio__link" href="#" target="_blank">
-        <div class="portfolio__item">
-          <img class="portfolio__image"
-            src="https://www.dummyimage.com/600x400/2e848f/242a75.jpg&text=here+will+be+one+of+my+project's+screenshot"
-            alt="">
-          <h2 class="portfolio__title">
-            my first work
-          </h2>
-        </div>
-      </a>
-    </div>
-    <div class="portfolio__slider-box">
-      <a class="portfolio__link" href="#" target="_blank">
-        <div class="portfolio__item">
-          <img class="portfolio__image"
-            src="https://www.dummyimage.com/600x500/093747/4f5df5.jpg&text=here+will+be+one+of+my+project's+screenshot"
-            alt="">
-          <h2 class="portfolio__title">
-            my second work
-          </h2>
-        </div>
-      </a>
-    </div>
+    <button class="portfolio__arrow  portfolio__arrow--prev" id="portfolio-arrow-prev" type="button">
+      <svg class="portfolio__arrow-icon">
+        <use xlink:href="#arrow-left"></use>
+      </svg>
+    </button>
+    <button class="portfolio__arrow  portfolio__arrow--next" id="portfolio-arrow-next" type="button">
+      <svg class="portfolio__arrow-icon">
+        <use xlink:href="#arrow-left"></use>
+      </svg>
+    </button>
+
+
+    <div class="portfolio__slider-wrapper" id="portfolio">
+      <div class="portfolio__slider-box">
+        <a class="portfolio__link" href="#" target="_blank">
+          <div class="portfolio__item">
+            <img class="portfolio__image"
+              src="https://www.dummyimage.com/600x400/2e848f/242a75.jpg&text=here+will+be+one+of+my+project's+screenshot"
+              alt="">
+            <h2 class="portfolio__title">
+              my first work
+            </h2>
+          </div>
+        </a>
+      </div>
+      <div class="portfolio__slider-box">
+        <a class="portfolio__link" href="#" target="_blank">
+          <div class="portfolio__item">
+            <img class="portfolio__image"
+              src="https://www.dummyimage.com/600x500/093747/4f5df5.jpg&text=here+will+be+one+of+my+project's+screenshot"
+              alt="">
+            <h2 class="portfolio__title">
+              my second work
+            </h2>
+          </div>
+        </a>
+      </div>
+      <div class="portfolio__slider-box">
+        <a class="portfolio__link" href="#" target="_blank">
+          <div class="portfolio__item">
+            <img class="portfolio__image"
+              src="https://www.dummyimage.com/600x400/2e848f/242a75.jpg&text=here+will+be+one+of+my+project's+screenshot"
+              alt="">
+            <h2 class="portfolio__title">
+              my first work
+            </h2>
+          </div>
+        </a>
+      </div>
+      <div class="portfolio__slider-box">
+        <a class="portfolio__link" href="#" target="_blank">
+          <div class="portfolio__item">
+            <img class="portfolio__image"
+              src="https://www.dummyimage.com/600x500/093747/4f5df5.jpg&text=here+will+be+one+of+my+project's+screenshot"
+              alt="">
+            <h2 class="portfolio__title">
+              my second work
+            </h2>
+          </div>
+        </a>
+      </div>
+    </div><!-- /.portfolio__slider-wrapper -->
   </div><!-- /.portfolio -->
 </div><!-- /.container -->
